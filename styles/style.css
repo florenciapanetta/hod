@@ -1,0 +1,112 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.encabezado {
+    margin-bottom: 50px;
+    background-color: rgba(94, 46, 46, 0.623);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+h1 {
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    font-size: medium;
+    list-style-position: none;
+    border-radius: 1px;
+    border: 10px double;
+    background-color: white;
+}
+
+ul li {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+
+
+}
+
+.flexContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+#word {
+    border-radius: 2cm;
+    border-style: dashed;
+    padding: 20px;
+    color: rgb(56, 2, 56);
+    font-style: italic;
+    text-align: center;
+}
+
+.imagenIndex {
+
+    max-width: 40%;
+    background-color: white;
+    border: black 1px solid;
+    position: relative;
+    left: 600px;
+
+}
+
+/* COLORFUL*/
+
+.sabores {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.carousel-inner .carousel-item img {
+    width: auto;
+    max-height: 1000px;
+    object-fit: cover;
+    }
+
+/* FOOTER */
+
+footer {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 80px;
+    background-color: rgb(20, 20, 20);
+    color: white;
+    height: auto;
+    margin-top: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+footer>ul>li {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.socialMedia {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
